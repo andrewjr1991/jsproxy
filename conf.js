@@ -19,12 +19,6 @@ jsproxy_config({
         '89.208.244.174.xip.io:8443': 1,
       }
     },
-    'mysite': {
-      label: '当前站点',
-      lines: {
-        [location.host]: 1,
-      }
-    },
     // 该节点用于加载大体积的静态资源
     'cfworker': {
       label: 'Workders',
