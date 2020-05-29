@@ -13,17 +13,11 @@ jsproxy_config({
   // 节点配置
   node_map: {
     'demo-hk': {
-      label: '演示服务',
+      label: 'CN-GIA',
       lines: {
         // 主机:权重
-        'google.andrewjr.wang:8443': 1,
+        'https://89.208.244.174.xip.io:8443': 1,
       }
-    },
-    'demo-sg': {
-      label: '演示服务-新加坡节点',
-      lines: {
-        'node-aliyun-sg.etherdream.com:8443': 1,
-      },
     },
     'mysite': {
       label: '当前站点',
