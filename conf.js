@@ -16,7 +16,7 @@ jsproxy_config({
       label: '演示服务',
       lines: {
         // 主机:权重
-        '89.208.244.174:2333': 1,
+        'google.andrewjr.wang:8443': 1,
       }
     },
     'demo-sg': {
