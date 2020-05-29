@@ -12,7 +12,7 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
-    'demo-hk': {
+    'gia': {
       label: 'CN-GIA',
       lines: {
         // 主机:权重
@@ -40,7 +40,7 @@ jsproxy_config({
   /**
    * 默认节点
    */
-  node_default: 'CN-GIA',
+  node_default: 'gia',
   // node_default: /jsproxy-demo\.\w+$/.test(location.host) ? 'demo-hk' : 'mysite',
 
   /**
