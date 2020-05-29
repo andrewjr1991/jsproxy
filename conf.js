@@ -16,7 +16,7 @@ jsproxy_config({
       label: 'CN-GIA',
       lines: {
         // 主机:权重
-        'https://89.208.244.174.xip.io:8443': 1,
+        '89.208.244.174.xip.io:8443': 1,
       }
     },
     'mysite': {
